@@ -3,7 +3,7 @@
 In this lab you are to complete 4 tasks and submit them via github classroom. Submit source codes with your comments.
 
 ## Task A : sine-cosine
-Write C program `sincos.cpp` that will read command line arguments and print sine and cosine of the arguments as shown below. Note the special options `-s` and `-c`. If no argument is supplied your program should print a usage hint.
+Write C program `sincos.c` that will read command line arguments and print sine and cosine of the arguments as shown below. Note the special options `-s` and `-c`. If no argument is supplied your program should print a usage hint.
 
 ```bash
 $ gcc sincos.c -o sincos
