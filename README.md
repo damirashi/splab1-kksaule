@@ -1,6 +1,6 @@
 # System Programming Lab 1
 
-In this lab you are to complete 4 tasks and submit them via github classroom. Submit source codes with your ___comments___.
+In this lab you are to complete 4 tasks and submit them via github classroom. Learn basics of __git__ and __github__. Submit source codes with your _comments_. When creating your _github_ accout use your _sdu.edu.kz_ email.
 
 ## Task A : sine-cosine
 Write C program `sincos.c` that will read command line arguments and print sine and cosine of the arguments as shown below. Note the special options `-s` and `-c`. If no argument is supplied your program should print a usage hint.
