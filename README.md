@@ -20,7 +20,7 @@ only sine: sincos -s angle
 only cosine: sincos -c angle
 ```
 
-## Task B
+## Task B : say hi
 Write a program that will print a `hi` in various languages as shown below. Let the source code be `sayhi.c`. Compile it to several executable versions e.g. `sayhi`, `saysalem`, `sayprivet` etc. For each language there should be two options short one and long one (e.g. `-e` and `--english`). If no language is specified the program should figure out language from the name of executable. Additional long option `--name` should be implemented too.
 
 ```bash
@@ -42,21 +42,21 @@ $ ./saysalem -r --name bob
 privet bob
 ```
 
-## Task C
-Implement your verison of `echo` command called `eko`. Your program should have `-n` option.
+## Task C : exo
+Implement your verison of `echo` command called `exo`. Your program should have `-n` option.
 
 ```bash
-$ gcc eko.c -o eko
-$ ./eko a b c
+$ gcc exo.c -o exo
+$ ./exo a b c
 a b c
-$ ./eko -n a b c
-a b c$ ./eko a b c again
+$ ./exo -n a b c
+a b c$ ./exo a b c again
 a b c again
 $
 ```
 
-## Task D
-Write program `rank` to sort strings from standard input and print them to standard output. By default it sorts in alphabetical order unless any one of `-r` or `--reverse` options is specified. In which case your program should sort in reverse order. Implement your sorting algorithm manually without using any library function to sort array of strings in C.
+## Task D : ranking or sorting
+Write program `rank` to read strings from standard input and print them to standard output in sorted order. By default it sorts in alphabetical order unless any one of `-r` or `--reverse` options is specified. In which case your program should sort input in reverse order. Implement your sorting algorithm manually without using any library function to sort array of strings in C.
 
 ```bash
 $ gcc rank.c -o rank
@@ -87,3 +87,4 @@ hello
 4. `man fgets`
 5. `man sin`
 6. `man 3 printf`
+7. [C bootcamp](http://www.gribblelab.org/CBootCamp/)
