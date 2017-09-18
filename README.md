@@ -79,3 +79,11 @@ privet
 nihau
 hello
 ```
+
+## References
+1. `man getopt`
+2. `man getopt_long`
+3. `man scanf`
+4. `man fgets`
+5. `man sin`
+6. `man 3 printf`
